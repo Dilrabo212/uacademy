@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .bliss{
+            color: blue;
+            font-style: italic;
+        }
+        #chi{
+            color: blue;
+            font-style: unset;
+        }
+    </style>
+</head>
+<body>
+<form action="./server.php" method="get">
+    <label for="username">Username</label>
+        <input type="text" name="username" id="username"><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="sana">Tug'ilgan sana</label>
+        <input type="date" name="date" id="sana"><br><br>
+        <hr>
+        <label for="pasport">Pasport malumotingiz</label>
+        <input type="file" name="pasport" id="passport"><br><br>
+        <label for="erlak">Erkak</label>
+        <input type="radio" name="gender" value="male"><br><br>
+        <label for="ayol">Ayol</label>
+        <input type="radio" name="gender" value="female"><br><br>
+        <label for="student">Talaba</label>
+        <input type="checkbox" name="student" id="student"><br><br>
+        <button type="submit"> Register </button><br><br>
+
+
+
+
+        <button type="submit"> Login</button>
+    
+</form>
+</body>
+
+</html>

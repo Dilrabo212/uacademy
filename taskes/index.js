@@ -96,13 +96,20 @@
 
 
 
-//*bu misolda faqat kesmoxchi bo'lgan malumotimiz chiqvotti lekin man xolirdim,
-//*malum bir texsdan oxirini olib tashlab oldidegi texstni chiqarish ili qoldirish. 
-//*betta biz faqat kesib olingan texstni print qivommiz.
+// *bu misolda faqat kesmoxchi bo'lgan malumotimiz chiqvotti lekin man xolirdim,
+// *malum bir texsdan oxirini olib tashlab oldidegi texstni chiqarish ili qoldirish. 
+// *betta biz faqat kesib olingan texstni print qivommiz.
 
 
 
-// const w = "dilraboxujamuratova@gmmail.com"
+// const text = "dilraboxujamuratova@gmail.com";
+
+// let index = text.lastIndexOf(".");
+// result = text.substring(0, index);
+
+
+// console.log(index);
+// console.log(result);
 
 // const slice = w.slice(-4)
 // console.log(slice);
@@ -194,6 +201,149 @@
 
 
 // let arr = [1, 2, 3, 4, 3, 5, 3];
-// let result = arr.filter
+// let target = 3;
+// let count = 0;
 
-// console.log(result);
+// for (i = 0; i < arr.langth; i++) {
+//     if (arr[i] === target) {
+//         count++;
+//     }
+// }
+
+// console.log("count = ", count);
+
+
+
+//=========================================
+
+// // tushunmadim lekin bundanam soddaro yo'lini topish kere!!!!
+
+// let arr = [1, 2, 3, 4, 3, 5, 3, 3, 3, 3, 3, 3, 3];
+// let target = 3;
+// let count = arr.reduce(function (total, current) {
+//     if (current === target) {
+//         return total + 1;
+//     }
+//     return total;
+// }, 0);
+
+// console.log(count);
+
+//!o'zim uchun qaytarish
+
+//**======================================================= */
+// const user = {
+//     name: "dilrabo",
+//     born: "Tashkent",
+//     hesCar: false
+// }
+
+// for(let key in user){
+// console.log(key);
+// }
+
+// for( let key in user){
+//     console.log(user[key]);
+// }
+// result = user.name;
+// user.born;
+// user.hesCar;
+//console.log({ ...user });
+
+//Output :{ name: 'dilrabo', born: 'Tashkent', hesCar: false }
+
+
+//! task 10
+
+// let arr = [1, 2, 3, 4, 5];
+// let summ = arr.reduce(function (total, current) {
+//     return total + current;
+// }, 0);
+
+// let summa = summ / arr.length;
+
+// console.log(summ);
+// console.log(summa);
+
+
+// //! tushunmadim !
+
+//===============================================
+// //! task 11
+
+
+// let arr = ['apple', 'banan', 'orange'];
+// let fruit= arr.reverse();
+
+// console.log(fruit);
+
+// //! tushundim
+// //==================================================
+
+// //! task 12
+
+
+// let arr1 = ['apple', 'banan', 'orange'];
+// let fruit1= arr.reverse();
+
+// console.log(fruit1);
+
+
+//* 11 - 12 - task bir xil ekan!
+
+
+//!   task 13
+
+//?Ob'ektda massivning har bir qiymati kalit sifatida mavjudligini tekshiring,
+//? agar ob'ektga qiymat kalit va qiymat sifatida qo'shilmasa
+
+// let obj = { "name": "John", "age": 25, "city": "New York" }
+
+// let array = ['born_place', 'university', 'car'];
+// for( let i = 0; i < array.length; i++){
+//     let value = array[i];
+//     if(!obj.hasOwnProperty(value)){
+//         obj[value] = value;
+//     }
+// }
+// console.log(obj);
+
+//* Kod massivdagi har bir qiymatni takrorlaydi va hasOwnProperty usuli yordamida 
+//*ob'ektda kalit sifatida mavjudligini tekshiradi. Agar kalit mavjud bo'lmasa, 
+//*u ob'ektga kalit-qiymat juftligini qo'shadi.
+
+
+//======================================================================================
+
+//! task 14
+
+
+
+// let obj = { "name": "John", "age": 25, "city": "New York" }
+
+// let array = ['born_place', 'university', 'car'];
+
+
+// for (let i = 0; i < array.length; i++) {
+//     let value = array[i];
+//     if (!obj.hasOwnProperty(value)) {
+//         obj[value] = value;
+//     }
+// }
+// console.log(obj);
+
+
+
+function triangleArea(base, height) {
+    if (base <= 0 || height <= 0) {
+        throw new Error("Base and height must be positive values.");
+    }
+
+    const area = 0.5 * base * height;
+    return area;
+}
+
+const base = 6;
+const height = 4;
+const result = triangleArea(base, height);
+console.log("The area of the triangle is:", result);

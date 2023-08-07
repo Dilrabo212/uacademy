@@ -1,0 +1,78 @@
+
+*{
+list-style: none;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+
+}
+h1 {
+    color: #000;
+font-family: Inter;
+font-size: 56px;
+font-weight: 700;
+
+}
+.body {
+  
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    border-radius: 12px;
+    background: #FBFBFB;
+
+}
+.forma {
+    display: flex;
+}
+.imput {
+    display: flex;
+    width: 100%;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--text-input-border, #E5E9EB);
+    background: var(--black-white-white, #FFF);
+
+}
+.submit {
+
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--primary-pr-500, #4094F7);
+}
+.list li{
+
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 11px;
+
+}
+.clear {
+    color: var(--primary-pr-600, #0E73F6);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.084px;
+
+}

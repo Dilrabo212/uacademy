@@ -1,0 +1,64 @@
+/* GENERAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background-color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.site-hero {
+  position: relative;
+  background-image: url(/img/bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 275px) center;
+}
+
+.site-hero::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 50px;
+  background-image: url(./);
+  content: "";
+}
+
+.site-hero__content {
+  max-width: 581px;
+}
+
+.site-hero__title {
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

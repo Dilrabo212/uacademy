@@ -4,11 +4,11 @@ list-style: none;
 
 }
 
-.container {
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+  width:1400px;
 
 }
 h1 {
@@ -19,39 +19,42 @@ font-weight: 700;
 
 }
 .body {
-  
+    width: 50%;
     padding: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 11px;
     border-radius: 12px;
     background: #FBFBFB;
 
 }
 .forma {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.imput {
+.input {
+    margin: 40px;
+    border-style: none;
     display: flex;
-    width: 100%;
-    padding: 8px 16px;
-    align-items: flex-start;
-    gap: 10px;
+    width: 50%;
+    padding: 25px 60px;
+    align-items: center;
     border-radius: 6px;
-    border: 1px solid var(--text-input-border, #E5E9EB);
-    background: var(--black-white-white, #FFF);
+    outline: none;
+
 
 }
 .submit {
 
     display: flex;
-    padding: 8px 16px;
+    width: 100px;
+    height: 50px;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     border-radius: 6px;
-    background: var(--primary-pr-500, #4094F7);
+    background: blue;
+    margin: 20px;
 }
 .list li{
 
@@ -66,13 +69,14 @@ font-weight: 700;
     margin-bottom: 11px;
 
 }
-.clear {
-    color: var(--primary-pr-600, #0E73F6);
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.084px;
+.btn {
+    
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    border-radius: 6px;
+    background: blue;
+    margin-left: 45%;
 
 }

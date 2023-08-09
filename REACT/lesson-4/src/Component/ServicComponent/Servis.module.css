@@ -1,0 +1,57 @@
+.servis_section_wrep{
+    width: 100%;
+    background: #FFF;
+    
+
+}
+.servis__section__h1{
+color: #252626;
+font-family: Work Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.servis__section__p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 597px;
+    color: #707273;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.section__card{
+    background-image: url(../img/Feature01.png);
+    width: 261px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #A3E0E8;
+    background: #D1F4F9;
+}
+.bold_text__card{
+    color: #252626;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+.p__text__card{
+    color: #707273;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}

@@ -1,14 +1,13 @@
 
+
 import Todo from './component/Todo/todo'
+import { Todos } from './component/Todos/todos';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Todo />
-
-
-      </header>
+      <Todo />
+      <Todos />
     </div>
   );
 }
